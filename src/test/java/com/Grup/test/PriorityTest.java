@@ -8,6 +8,7 @@ public class PriorityTest {
     //Herkese Selamlar --> Gonder
 
     //Herkese Selamler Again
+    //Ve merhaba dünya
     @BeforeMethod
 
     @Test(priority = 4)
