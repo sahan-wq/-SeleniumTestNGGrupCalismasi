@@ -47,7 +47,5 @@ public class JSAlertTest {
         driver.switchTo().alert().accept();
         //driver.switchTo().alert().dismiss();
 
-
-
     }
 }
