@@ -4,6 +4,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class PriorityTest {
+
+    //Herkese Selamlar --> Gonder
     @BeforeMethod
 
     @Test(priority = 4)
