@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class PriorityTest {
     @BeforeMethod
 
-    @Test(priority = 1)
+    @Test(priority = 4)
     public void liegeTest(){
         System.out.println("liegeTest");
     }
@@ -18,7 +18,7 @@ public class PriorityTest {
     public void hollandaTest(){
         System.out.println("hollandaTest");
     }
-    @Test(priority = 4)
+    @Test(priority = 1)
     public void belcikaTest(){
         System.out.println("belcikaTest");
     }

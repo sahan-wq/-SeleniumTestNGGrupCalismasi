@@ -17,7 +17,7 @@ public class JSAlertTest {
    ->Alertin icineki mesaji aliyor
    driver.switchTo.alert().sendKeys()->alertin icerisine mesaj gonderiyoruz
   driver.switchTo.alert().acccept()-> tamam. kabul et
-   driver.switchTo.alert().didmiss()->vazgec/reddet
+   driver.switchTo.alert().dismiss()->vazgec/reddet
      */
     WebDriver driver;
     @BeforeClass
@@ -46,6 +46,7 @@ public class JSAlertTest {
 
         driver.switchTo().alert().accept();
         //driver.switchTo().alert().dismiss();
+
 
 
     }

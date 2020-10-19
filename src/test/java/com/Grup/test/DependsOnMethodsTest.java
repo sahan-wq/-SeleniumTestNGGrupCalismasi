@@ -20,7 +20,7 @@ public class DependsOnMethodsTest {
         System.out.println("test02");
     }
 
-    @Test(dependsOnMethods = "login")
+    @Test(dependsOnMethods = "login",priority = 1)
 
     public void sifre(){
         System.out.println("sifre");
